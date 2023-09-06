@@ -1,0 +1,25 @@
+{
+  "name": "daily-diet-api",
+  "version": "1.0.0",
+  "description": "Gilson Ferreira",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "knex": "node --loader tsx ./node_modules/knex/bin/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/node": "^20.5.9",
+    "eslint": "^8.48.0",
+    "tsx": "^3.12.8",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fastify": "^4.22.2",
+    "knex": "^2.5.1",
+    "sqlite3": "^5.1.6"
+  }
+}
